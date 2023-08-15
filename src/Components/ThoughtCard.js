@@ -4,7 +4,7 @@ import quat from '../assets/quat.png'
 const ThoughtCard = ({data}) => {
   return (
     <div className='flex w-full md:w-[90%] min-h-[400px] m-10 flex-wrap md:mt-0 '>
-    { data.no%2 == 0 || window.innerWidth < 768 ?
+    { data.no%2 === 0 || window.innerWidth < 768 ?
     (<><div className='w-[100%] md:w-[50%] flex justify-center content-center items-center'>
               <div className='flex flex-col md:w-[80%] w-[90%]'>
                   <div className='bg-cover bg-center w-[50px] h-[40px]' style={{ backgroundImage: `url(${quat})` }}></div>

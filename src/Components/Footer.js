@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo2.png'
-import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div name='Contact' className='flex w-[full]   bg-[#25262A] text-white flex-wrap'>
